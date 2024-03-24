@@ -1,5 +1,14 @@
 {
   "name": "fcc-learn-node-with-express",
+  "author": "David LC",
+  "description": "backend coruse at freeCodeCamp",
+  "keywords": [
+    "freeCodeCamp",
+    "coruse",
+    "backend",
+    "api",
+    "nodejs"
+  ],
   "version": "0.1.0",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -10,6 +19,6 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --watch server.js"
   }
 }
